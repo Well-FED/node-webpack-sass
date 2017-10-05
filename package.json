@@ -1,0 +1,25 @@
+{
+  "name": "sassy",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean:build": "rimraf ./build",
+    "webpack": "webpack --config ./config/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "",
+    "start": "npm run clean:build && npm run webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0"
+  }
+}
