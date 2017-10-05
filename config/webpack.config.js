@@ -39,17 +39,6 @@ let config = {
                     }
                 ]
             }
-            // {
-            //     test: /\.css$/,
-            //     include: DIR_PUBLIC,
-            //     use: {
-            //         loader: 'file-loader',
-            //         options: {
-            //             name: '[path][name].[ext]',
-            //             outputPath: DIR_BUILD
-            //         }
-            //     }
-            // }
         ]
     },
     plugins: [
