@@ -1,0 +1,44 @@
+.result_card {
+  display: block;
+  position: relative;
+  padding: 1rem 1rem 1rem 7rem;
+  border: rgb(125,125,125) solid 1px;
+  text-decoration: none;
+
+  dl {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  dd {
+    margin: 0 0 .25rem;
+    flex: 0;
+  }
+
+  dt {
+    display: none;
+  }
+
+  dd.thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+    width: 4rem;
+    margin: 0;
+    border-right: rgb(125,125,125) solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  dd.name {
+    font-size: 1.5rem;
+  }
+
+  dd.sku {
+    order: -1;
+  }
+}
